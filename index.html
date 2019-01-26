@@ -107,7 +107,8 @@ Vue.component('pro',{
                 }, 1000);
                 vm.color = 'status-2';               
             }else if(vm.time==0){
-                $('#Order').modal('hide')
+                $('#Order').modal('hide');
+                $('#preOrder').modal('hide');
                 vm.color = 'status-3';
             }
         },
